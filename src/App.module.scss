@@ -23,7 +23,8 @@ $background: './Image/Background.jpg';
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: fadeIn 0.4s ease-in;
+    animation: fadeIn 0.2s ease-in;
+    animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn{
@@ -35,12 +36,12 @@ $background: './Image/Background.jpg';
 }
 
 .loading {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: white;
-    box-shadow: 0px 20px 40px gray;
-    animation: loadingAnimation 1s infinite;
+    // width: 300px;
+    // height: 300px;
+    // border-radius: 50%;
+    // background-color: white;
+    // box-shadow: 0px 20px 40px gray;
+    // animation: loadingAnimation 1s infinite;
 }
 
 @keyframes loadingAnimation {

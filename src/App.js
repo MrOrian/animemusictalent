@@ -15,7 +15,7 @@ function App() {
     setLoading(true);  // Kích hoạt loading khi pageTitle thay đổi
     const timeout = setTimeout(() => {
       setLoading(false); // Tắt loading sau 1 giây (bạn có thể tùy chỉnh thời gian)
-    }, 300);
+    }, 100);
 
     return () => clearTimeout(timeout); // Xóa timeout nếu component unmount
   }, [pageTitle]); // Theo dõi sự thay đổi của pageTitle
