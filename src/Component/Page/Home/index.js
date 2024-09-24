@@ -12,7 +12,9 @@ function Home() {
             </div>
 
             <div className={cx('home__right')}>
+                
                 <p>
+                    <p className={cx('title')}>Thông tin chương trình</p>
                     <span className={cx('highlight')}>
                         Anime Music Talent 
                         là cuộc thi được tổ chức bởi
