@@ -1,0 +1,7 @@
+$background: './Image/Background.jpg';
+
+.app{
+    background-image: url(#{$background});
+    background-size: cover;
+    background-attachment: fixed;
+}
