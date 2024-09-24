@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MrOrian/crescendo.git/static/css/main.2639222f.css",
-    "main.js": "/MrOrian/crescendo.git/static/js/main.98e6f65e.js",
-    "static/js/453.ebba58c1.chunk.js": "/MrOrian/crescendo.git/static/js/453.ebba58c1.chunk.js",
-    "static/media/LOGO_Color.png": "/MrOrian/crescendo.git/static/media/LOGO_Color.b214468f428deed48a56.png",
-    "static/media/Background.jpg": "/MrOrian/crescendo.git/static/media/Background.cbb7be2e07d7080d3c8f.jpg",
-    "static/media/LOGO_White.png": "/MrOrian/crescendo.git/static/media/LOGO_White.caf695ce6715dc5cf5c7.png",
-    "static/media/Youtube.png": "/MrOrian/crescendo.git/static/media/Youtube.dc239a46473092bae0db.png",
-    "static/media/Zalo.png": "/MrOrian/crescendo.git/static/media/Zalo.a24c5ce1496c8169db4b.png",
-    "static/media/Instagram.png": "/MrOrian/crescendo.git/static/media/Instagram.ada0803263f91510766f.png",
-    "static/media/Tiktok.png": "/MrOrian/crescendo.git/static/media/Tiktok.ce16f2ebdb5967201bee.png",
-    "static/media/Facebook.png": "/MrOrian/crescendo.git/static/media/Facebook.3c641b2219c8b2db1b72.png",
-    "index.html": "/MrOrian/crescendo.git/index.html",
-    "main.2639222f.css.map": "/MrOrian/crescendo.git/static/css/main.2639222f.css.map",
-    "main.98e6f65e.js.map": "/MrOrian/crescendo.git/static/js/main.98e6f65e.js.map",
-    "453.ebba58c1.chunk.js.map": "/MrOrian/crescendo.git/static/js/453.ebba58c1.chunk.js.map"
+    "main.css": "/crescendo/static/css/main.ed28f253.css",
+    "main.js": "/crescendo/static/js/main.383eb825.js",
+    "static/js/453.ebba58c1.chunk.js": "/crescendo/static/js/453.ebba58c1.chunk.js",
+    "static/media/LOGO_Color.png": "/crescendo/static/media/LOGO_Color.b214468f428deed48a56.png",
+    "static/media/Background.jpg": "/crescendo/static/media/Background.cbb7be2e07d7080d3c8f.jpg",
+    "static/media/LOGO_White.png": "/crescendo/static/media/LOGO_White.caf695ce6715dc5cf5c7.png",
+    "static/media/Youtube.png": "/crescendo/static/media/Youtube.dc239a46473092bae0db.png",
+    "static/media/Zalo.png": "/crescendo/static/media/Zalo.a24c5ce1496c8169db4b.png",
+    "static/media/Instagram.png": "/crescendo/static/media/Instagram.ada0803263f91510766f.png",
+    "static/media/Tiktok.png": "/crescendo/static/media/Tiktok.ce16f2ebdb5967201bee.png",
+    "static/media/Facebook.png": "/crescendo/static/media/Facebook.3c641b2219c8b2db1b72.png",
+    "index.html": "/crescendo/index.html",
+    "main.ed28f253.css.map": "/crescendo/static/css/main.ed28f253.css.map",
+    "main.383eb825.js.map": "/crescendo/static/js/main.383eb825.js.map",
+    "453.ebba58c1.chunk.js.map": "/crescendo/static/js/453.ebba58c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2639222f.css",
-    "static/js/main.98e6f65e.js"
+    "static/css/main.ed28f253.css",
+    "static/js/main.383eb825.js"
   ]
 }
