@@ -5,6 +5,7 @@ header{
     align-items: center;
     justify-content: center;
     background: linear-gradient(to bottom, #0a1688, transparent);
+
 }
 
 .header__logo{
@@ -13,11 +14,24 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .logo{
     height: 90%;
     width: 200px;
+    transition: 0.2s ease-in;
+
+    @media (max-width: 1280px){
+        height: 70%;
+        width: 120px;
+    }
+
+    @media (max-width:768px){
+        height: 40%;
+        width: 90px;
+        padding-left: 20px;
+    }
 }
 
 .header__menu{
@@ -33,6 +47,10 @@ header{
         font-weight: 700;
         text-decoration: none;
     }
+
+    @media (max-width:768px){
+        padding: 0px 0px 0 0px;
+    }
 }
 
 .menu__button{
@@ -46,6 +64,20 @@ header{
     align-items: center;
     justify-content: center;
     transition: 0.15s ease-in-out;
+
+    @media (max-width: 1280px){
+        height: 45px;
+        width: 100px;
+    }
+
+    @media (max-width: 1080px){
+        height: 40px;
+        width: 80px;
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 
     .home {
         width: 180px;
@@ -107,6 +139,15 @@ header{
 
     p{
         font-size: 22px;
+        transition: 0.15s ease-in;
+
+        @media (max-width: 1280px){
+            font-size: 18px;
+        }
+
+        @media (max-width: 1080px){
+            font-size: 14px;
+        }
     }
 
 }
@@ -131,3 +172,21 @@ header{
     background-color: #FF6600	;
 }
 
+.menu__collapse{
+    display: none;
+    
+    @media (max-width:768px) {
+        display: block;
+        
+    }
+}
+
+.menu__icon{
+    display: flex;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}

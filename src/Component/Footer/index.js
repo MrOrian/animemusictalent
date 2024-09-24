@@ -14,11 +14,15 @@ function Footer() {
 
                     <div className={cx('info__bottom')}>
                         <div className={cx('info__contact')}>
-                            <ion-icon name="mail-outline"></ion-icon>
+                            <p>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </p>
                             <p>animemusictalent@gmail.com</p>
                         </div>
                         <div className={cx('info__contact')}>
-                            <ion-icon name="call-outline"></ion-icon>
+                            <p>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </p>
                             <p>0899339332</p>
                         </div>
                     </div>

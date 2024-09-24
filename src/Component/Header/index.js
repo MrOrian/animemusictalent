@@ -15,7 +15,7 @@ function Header({setPageTitle}) {
                 </Link>
                 <div className={cx('header__menu')}>
                     
-                        <div className={cx('menu__button')}>
+                    <div className={cx('menu__button')}>
                             <Link to='/introduce' className={cx('menu__link')} onClick={() => setPageTitle('introduce')}>
                                 <p className={cx('button__name', 'button__fix')}>Giới thiệu</p>
                             </Link>
@@ -26,7 +26,7 @@ function Header({setPageTitle}) {
                                 <Link to='/timeline' className={cx('menu__link')} onClick={() => setPageTitle('timeline')}>Timeline tổng</Link>
                                 <Link to='/platforms' className={cx('menu__link')} onClick={() => setPageTitle('platforms')}>Các nền tảng</Link>
                             </div>
-                        </div>
+                    </div>
 
     
                     <Link to='/rules' className={cx('menu__link')} onClick={() => setPageTitle('rules')}>
@@ -58,6 +58,12 @@ function Header({setPageTitle}) {
                             <p className={cx('button__name')}>Liên hệ</p>
                         </div>
                     </Link>
+
+                    <div className={cx('menu__collapse')}>
+                        <p className={cx('menu__icon')}>
+                            <ion-icon name="grid-outline" ></ion-icon>
+                        </p>
+                    </div>
                 </div>
             </header>
     )

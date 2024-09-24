@@ -22,7 +22,7 @@ function App() {
 
 
   return (
-    <Router>
+    <Router basename='/animemusictalent'>
       <div className={cx('app')}>
         <Header setPageTitle={setPageTitle}></Header>
         <div className={cx('content')}>
