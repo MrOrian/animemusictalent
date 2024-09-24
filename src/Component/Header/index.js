@@ -7,7 +7,7 @@ const cx = classNames.bind(styles)
 
 function Header({setPageTitle}) {
     return(
-        <Router>
+        <Router basename="/animemusictalent">
             <header>
                 <Link to='/introduce' className={cx('header__logo')} onClick={() => setPageTitle('introduce')}>
                     <div className={cx('header__logo')}>
