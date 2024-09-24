@@ -3,12 +3,13 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     background: linear-gradient(to bottom, #0a1688, transparent);
 }
 
 .header__logo{
     height: 100%;
-    width: 25%;
+    width: 18%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +22,7 @@ header{
 
 .header__menu{
     height: 100%;
-    width: 70%;
+    width: 62%;
     padding: 0px 15px 0 20px;
     display: flex;
     align-items: center;
@@ -37,7 +38,7 @@ header{
 .menu__button{
     position: relative;
     height: 50px;
-    width: 130px;
+    width: 120px;
     border-radius: 5px;
     border: 2px solid rgb(255, 255, 255);
     background-color:	transparent ;
@@ -105,8 +106,14 @@ header{
     }
 
     p{
-        font-size: 20px;
+        font-size: 22px;
     }
+
+}
+
+.button__fix{
+    width: 120px;
+    text-align: center;
 }
 
 @keyframes homeAnimation{

@@ -5,53 +5,56 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles)
 
-function Header() {
+function Header({setPageTitle}) {
     return(
         <Router>
             <header>
-                <div className={cx('header__logo')}>
-                    <img className={cx('logo')} src={Images.logo_white} alt='logo'></img>
-                </div>
+                <Link to='/introduce' className={cx('header__logo')} onClick={() => setPageTitle('introduce')}>
+                    <div className={cx('header__logo')}>
+                        <img className={cx('logo')} src={Images.logo_white} alt='logo'></img>
+                    </div>
+                </Link>
                 <div className={cx('header__menu')}>
-                    <Link to='#' className={cx('menu__link')}>
+                    
                         <div className={cx('menu__button')}>
-                            <p className={cx('button__name')}>Giới thiệu</p>
-    
+                            <Link to='/introduce' className={cx('menu__link')} onClick={() => setPageTitle('introduce')}>
+                                <p className={cx('button__name', 'button__fix')}>Giới thiệu</p>
+                            </Link>
                             <div className={cx('home')}>
-                                <Link to='/' className={cx('menu__link')}>Thông tin cuộc thi</Link>
-                                <Link to='/' className={cx('menu__link')}>Đối tượng</Link>
-                                <Link to='/' className={cx('menu__link')}>Giải thưởng</Link>
-                                <Link to='/' className={cx('menu__link')}>Timeline tổng</Link>
-                                <Link to='/' className={cx('menu__link')}>Các nền tảng</Link>
+                                <Link to='/contest' className={cx('menu__link')} onClick={() => setPageTitle('contest')}>Thông tin cuộc thi</Link>
+                                <Link to='/object' className={cx('menu__link')} onClick={() => setPageTitle('object')}>Đối tượng</Link>
+                                <Link to='/prize' className={cx('menu__link')} onClick={() => setPageTitle('prize')}>Giải thưởng</Link>
+                                <Link to='/timeline' className={cx('menu__link')} onClick={() => setPageTitle('timeline')}>Timeline tổng</Link>
+                                <Link to='/platforms' className={cx('menu__link')} onClick={() => setPageTitle('platforms')}>Các nền tảng</Link>
                             </div>
                         </div>
-                    </Link>
+
     
-                    <Link to='#' className={cx('menu__link')}>
+                    <Link to='/rules' className={cx('menu__link')} onClick={() => setPageTitle('rules')}>
                         <div className={cx('menu__button')}>
                             <p className={cx('button__name')}>Thể lệ</p>
                         </div>
                     </Link>
     
-                    <Link to='#' className={cx('menu__link')}>
+                    <Link to='/register' className={cx('menu__link')} onClick={() => setPageTitle('register')}>
                         <div className={cx('menu__button')}>
                             <p className={cx('button__name')}>Đăng ký</p>
                         </div>
                     </Link>
     
-                    <Link to='#' className={cx('menu__link')}>
+                    <Link to='/examiner' className={cx('menu__link')} onClick={() => setPageTitle('examiner')}>
                         <div className={cx('menu__button')}>
                             <p className={cx('button__name')}>Giám khảo</p>
                         </div>
                     </Link>
     
-                    <Link to='#' className={cx('menu__link')}>
+                    <Link to='/service' className={cx('menu__link')} onClick={() => setPageTitle('service')}>
                         <div className={cx('menu__button')}>
                             <p className={cx('button__name')}>Dịch vụ</p>
                         </div>
                     </Link>
     
-                    <Link to='#' className={cx('menu__link')}>
+                    <Link to='/contact' className={cx('menu__link')} onClick={() => setPageTitle('contact')}>
                         <div className={cx('menu__button')}>
                             <p className={cx('button__name')}>Liên hệ</p>
                         </div>

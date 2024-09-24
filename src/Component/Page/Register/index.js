@@ -1,14 +1,14 @@
 import classNames from 'classnames/bind'
-import styles from './Timeline.module.scss'
+import styles from './Register.module.scss'
 
 
 const cx = classNames.bind(styles)
 
-function Timeline() {
+function Register() {
     return(
         <div className={cx('container')}>
         </div>
     )
 }
 
-export default Timeline
+export default Register
