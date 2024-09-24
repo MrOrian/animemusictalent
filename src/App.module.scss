@@ -1,7 +1,10 @@
 $background: './Image/Background.jpg';
 
 .app{
+    min-height: 100vh; /* Đảm bảo chiều cao tối thiểu là 100% */
     background-image: url(#{$background});
     background-size: cover;
     background-attachment: fixed;
+    background-position: center; /* Căn giữa hình ảnh */
+    background-repeat: no-repeat;
 }

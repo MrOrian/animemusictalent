@@ -6,7 +6,8 @@ const Images = {
     tiktok: require('./Tiktok.png'),
     instagram: require('./Instagram.png'),
     zalo: require('./Zalo.png'),
-    youtube: require('./Youtube.png')
+    youtube: require('./Youtube.png'),
+    test: require('./pngegg.png')
 }
 
 export default Images
