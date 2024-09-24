@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/animemusictalent/static/css/main.f7889496.css",
+    "main.css": "/animemusictalent/static/css/main.b83653b7.css",
     "main.js": "/animemusictalent/static/js/main.3db9d487.js",
     "static/js/453.ebba58c1.chunk.js": "/animemusictalent/static/js/453.ebba58c1.chunk.js",
     "static/media/LOGO_Color.png": "/animemusictalent/static/media/LOGO_Color.b214468f428deed48a56.png",
@@ -12,12 +12,12 @@
     "static/media/Tiktok.png": "/animemusictalent/static/media/Tiktok.ce16f2ebdb5967201bee.png",
     "static/media/Facebook.png": "/animemusictalent/static/media/Facebook.3c641b2219c8b2db1b72.png",
     "index.html": "/animemusictalent/index.html",
-    "main.f7889496.css.map": "/animemusictalent/static/css/main.f7889496.css.map",
+    "main.b83653b7.css.map": "/animemusictalent/static/css/main.b83653b7.css.map",
     "main.3db9d487.js.map": "/animemusictalent/static/js/main.3db9d487.js.map",
     "453.ebba58c1.chunk.js.map": "/animemusictalent/static/js/453.ebba58c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7889496.css",
+    "static/css/main.b83653b7.css",
     "static/js/main.3db9d487.js"
   ]
 }
