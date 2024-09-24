@@ -4,7 +4,7 @@ import classNames from 'classnames/bind'
 import styles from './App.module.scss'
 import Pages from './Component/Page';
 import {useEffect, useState} from 'react';
-
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 const cx = classNames.bind(styles)
 
 function App() {
