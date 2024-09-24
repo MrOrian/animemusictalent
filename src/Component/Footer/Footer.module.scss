@@ -2,6 +2,8 @@ footer{
     margin-top: auto;
     padding: 10px 10px 0 10px;
     background: rgb(255, 255, 255, 0.7);
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .footer__top{
     width: 100%;

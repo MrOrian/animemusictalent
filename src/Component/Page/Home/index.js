@@ -28,7 +28,7 @@ function Home() {
                     * ĐỐI TƯỢNG DỰ THI:
                     </span>
                     <span> </span> 
-                     Không giới hạn độ tuổi, đăng ký các bảng: PIANO - VIOLIN - VOCAL - GUITAR - E.GUITAR.
+                     Không giới hạn độ tuổi, đăng ký các bảng:<br></br> PIANO - VIOLIN - VOCAL - GUITAR - E.GUITAR.
                     <br></br><br></br>
 
                     <span className={cx('highlight')}>
