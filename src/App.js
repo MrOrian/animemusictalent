@@ -4,8 +4,7 @@ import classNames from 'classnames/bind'
 import styles from './App.module.scss'
 import Pages from './Component/Page';
 import {useEffect, useState} from 'react';
-import { HashRouter as Router } from 'react-router-dom';
-
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 const cx = classNames.bind(styles)
 
 function App() {
@@ -23,7 +22,7 @@ function App() {
 
 
   return (
-    <Router basename="/animemusictalent">
+    <Router>
       <div className={cx('app')}>
         <Header setPageTitle={setPageTitle}></Header>
         <div className={cx('content')}>
@@ -31,7 +30,9 @@ function App() {
             <div className={cx('loading')}>
             </div>    
           ) : (
-            <Pages pageTitle={pageTitle}></Pages> 
+            <div className={cx('wrapper')}>
+              <Pages pageTitle={pageTitle}></Pages> 
+            </div>
           )}
         </div>
         <Footer></Footer>
