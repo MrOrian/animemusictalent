@@ -22,18 +22,20 @@ function App() {
 
 
   return (
-    <div className={cx('app')}>
-      <Header setPageTitle={setPageTitle}></Header>
-      <div className={cx('content')}>
-        {loading ? (
-          <div className={cx('loading')}>
-          </div>    
-        ) : (
-          <Pages pageTitle={pageTitle}></Pages> 
-        )}
+    <Router basename="/animemusictalent">
+      <div className={cx('app')}>
+        <Header setPageTitle={setPageTitle}></Header>
+        <div className={cx('content')}>
+          {loading ? (
+            <div className={cx('loading')}>
+            </div>    
+          ) : (
+            <Pages pageTitle={pageTitle}></Pages> 
+          )}
+        </div>
+        <Footer></Footer>
       </div>
-      <Footer></Footer>
-    </div>
+    </Router>
   );
 }
 
