@@ -22,6 +22,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     
     p{
         padding: 0;
@@ -43,7 +44,7 @@ footer{
     margin: 10px 0 10px 0;
     font-size: 20px;
     font-weight: 600;
-    padding-left: 25%;
+    padding-left: 10%;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 0;
@@ -59,6 +60,8 @@ footer{
 
         @media (max-width:590px) {
             font-size: 10px;
+            padding-top: 0;
+            margin-top: 0;
         }
     }
 
@@ -75,18 +78,30 @@ footer{
     }
 }
 
+.icon__info{
+    display: flex;
+    align-items: center;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
 
 .social__top{
     height: 30px;
     width: 100%;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
     p{
         padding: 0;
         margin: 0;
         font-size: 25px;
         font-weight: 700;
+
+        @media (max-width: 768px) {
+            font-size: 15px;
+        }
     }
 }
 
@@ -113,15 +128,16 @@ footer{
 .icon{
     height: 30px;
     width: 30px;
+    padding-top: 30%;
     transition: 0.15s ease-in;
     @media (max-width:768px) {
-        height: 25px;
-        width: 25px;
+        height: 18px;
+        width: 18px;
     }
 
     @media (max-width:490px) {
-        height: 15px;
-        width: 15px;
+        height: 20px;
+        width: 20px;
     }
 }
 
