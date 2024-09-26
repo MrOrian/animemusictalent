@@ -40,7 +40,7 @@ function Footer() {
                             </div>
                         </a>
                         
-                        <a>
+                        <a href='https://www.instagram.com/animemusictalent/' target='_blank' rel="noopener noreferrer">
                             <div className={cx('social')}>
                                 <img className={cx('icon')} src={Images.instagram} alt='Instagram'></img>
                             </div>
