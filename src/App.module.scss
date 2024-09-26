@@ -16,10 +16,11 @@ html, body {
 }
 
 .content{
-    min-height: 70vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .wrapper{
