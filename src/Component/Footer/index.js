@@ -58,7 +58,7 @@ function Footer() {
                             </div>
                         </a>
                         
-                        <a>
+                        <a href='https://www.youtube.com/channel/UCu78VS374DVACTad_1A1VfA/community?pvf=CAI%253D' target='_blank' rel='noopener noreferrer'>
                             <div className={cx('social')}>
                                 <img className={cx('icon')} src={Images.youtube} alt='Youtube'></img>
                             </div>
