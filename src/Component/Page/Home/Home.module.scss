@@ -1,9 +1,10 @@
 .home{
-    height: 600px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    padding: 10px 0;
 }
 
 .home__left{
