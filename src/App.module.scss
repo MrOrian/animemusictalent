@@ -1,19 +1,26 @@
 $background: './Image/Background.jpg';
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 
 .app{
     min-height: 100vh; /* Đảm bảo chiều cao tối thiểu là 100% */
     background-image: url(#{$background});
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center; /* Căn giữa hình ảnh */
-    background-repeat: no-repeat;
+    // background-size: cover;
+    // background-attachment: fixed;
+    // background-position: center; /* Căn giữa hình ảnh */
+    // background-repeat: no-repeat;
+    background-size: cover; /* Đảm bảo hình nền bao phủ toàn bộ */
+    background-position: center; /* Đặt hình nền ở giữa */
+    background-repeat: no-repeat; /* Không lặp lại hình nền */
 }
 
 .content{
     min-height: 85vh;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
