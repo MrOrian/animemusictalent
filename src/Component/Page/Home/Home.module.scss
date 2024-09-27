@@ -5,8 +5,6 @@
     justify-content: center;
     box-sizing: border-box;
     overflow: hidden;
-    overflow-y: scroll; /* Tạo thanh cuộn dọc */
-    overflow-x: hidden; 
     padding: 5px;
     
 }
@@ -38,9 +36,10 @@
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    overflow-x: auto;
     p{
         width: 80%;
+        text-align: justify;
+        transition: 0.15s ease-in;
         .title{
             width: 100%;
             font-size: 30px;
@@ -52,6 +51,7 @@
     span{
         padding-bottom: 20px;
     }
+
     @media (max-width:768px) {
         width: 100%;
         padding: 0 20px;
