@@ -1,8 +1,214 @@
+$vietin: '../../../Image/VietinBank.jpg';
+
 .container{
     margin: 0 auto;
-    height: 100%;
+    min-height: 100%;
     width: 80%;
-    background-color: rgba(20, 2, 93, 0.8);
+    background-color: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: 10%;
+    padding-top: 15px;
+    margin: 0 0 10px 0;
+}
+
+.register__container{
+    display: flex;
+    width: 100%;
+
+    @media (max-width:1000px) {
+        display: block;
+    }
+
+
+}
+
+.register__info{
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 30px;
+
+    @media (max-width:1000px) {
+        width: 100%;
+        display: block;
+    }
+}
+
+.register__instruct{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+    a{
+        margin: 5%;
+    }
+
+    @media (max-width:1000px) {
+        padding: 10%
+    }
+
+    @media (max-width:900px) {
+        margin-left: 0%;
+    }
+
+}
+
+.table__info{
+    border-collapse: collapse;
+    border: 3px solid #1a1668;
+
+    td, th{
+        padding: 12px 15px;
+        text-align: left;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+    }
+
+    th{
+        color: #b95e0e;
+        font-size: 20px;
+    }
+
+    
+    @media (max-width:1000px) {
+        margin-left: 10%;
+    }
+
+    @media (max-width:900px) {
+        margin-left: 0%;
+    }
+}
+
+.banking__image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+    @media (max-width:1000px) {
+        width: 100%;
+    }
+    min-height: 25vh;
+}
+
+.banking__info{
+    width: 70%;
+    padding-top: 5px;
+    // min-height: 80vh;
+}
+
+.img__banking{
+    padding-top: 15px;
+    min-height: 45%;
+    width: 100%;
+    background-image:  url(#{$vietin});
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px black;
+    position: relative;
+    transition: 0.15s ease-in;
+    border: 1px gray solid;
+
+    @media (max-width:1200px) {
+        min-height: 25%;
+        width: 100%;
+        background-image:  url(#{$vietin});
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        box-shadow: 5px 10px 20px black;
+        position: relative;
+    }
+
+    @media (max-width:1000px) {
+        min-height: 85%;
+        width: 100%;
+        background-image:  url(#{$vietin});
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        box-shadow: 5px 10px 20px black;
+        position: relative;
+    }
+
+    @media (max-width:768px) {
+        min-height: 65%;
+        margin-top: 10px;
+        width: 100%;
+        background-image:  url(#{$vietin});
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        box-shadow: 5px 10px 20px black;
+        position: relative;
+    }
+
+    @media (max-width:600px) {
+        min-height: 50%;
+        width: 100%;
+        background-image:  url(#{$vietin});
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        box-shadow: 5px 10px 20px black;
+        position: relative;
+    }
+}
+
+.banking__company{
+    height: auto;
+    position: absolute; /* Sử dụng vị trí tuyệt đối */
+    bottom: 5%; /* Đặt chữ xuống đáy */
+    left: 8%;
+    font-size: 20px; /* Kích thước chữ */
+    font-weight: 700; /* Độ dày chữ */
+    color: #0e3968; /* Màu chữ gần giống màu nền */
+    text-shadow: 
+        0px 1px 2px rgba(0, 0, 0, 0.5), /* Bóng đổ tối */;
+    letter-spacing: 0.1em;
+    transition: 0.15s ease-in;
+
+    @media (max-width:1200px) {
+        font-size: 15px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 12px;
+    }
+}
+
+.banking__branch{
+    height: auto;
+    position: absolute; /* Sử dụng vị trí tuyệt đối */
+    bottom: 5%; /* Đặt chữ xuống đáy */
+    right: 8%;
+    font-size: 18px; /* Kích thước chữ */
+    font-weight: 650; /* Độ dày chữ */
+    color: #0e3968; /* Màu chữ gần giống màu nền */
+    text-shadow: 
+        0px 1px 2px rgba(0, 0, 0, 0.5), /* Bóng đổ tối */;
+    letter-spacing: 0.05em;
+    transition: 0.15s ease-in;
+
+    @media (max-width:1200px) {
+        font-size: 15px;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 12px;
+    }
 }
 
 

@@ -12,7 +12,7 @@ function Rules() {
                 <p className={cx('main__content')}>I. Đối tượng dự thi:</p>
 
                 <p className={cx('detailed__content')}>
-                    + Đăng ký trong các bảng dự thi: PIANO - VIOLIN - VOCAL - GUITAR - E.GUITAR 
+                    + Đăng ký trong các bảng dự thi: <b>PIANO - VIOLIN - VOCAL - GUITAR - E.GUITAR</b> 
                     <br></br>
                     + Không giới hạn độ tuổi tham gia.
                     <br></br>
@@ -24,27 +24,27 @@ function Rules() {
                 <p className={cx('section__content')}>1. Vòng Sơ loại (Online)</p>
                 
                 <p className={cx('detailed__content')}>
-                    - Thời gian đăng ký: Từ ngày 01/10/2024 đến hết 15/11/2024 (Thí sinh có thể gửi video dự thi sau khi đăng ký qua Email hoặc Zalo BTC).
+                    - Thời gian đăng ký: Từ ngày <b>01/10/2024</b> đến hết <b>15/11/2024</b> (Thí sinh có thể gửi video dự thi sau khi đăng ký qua Email hoặc Zalo BTC).
                     <br></br>
                     - Lệ phí đăng ký: <b>750.000đ</b> / lượt đăng ký
                     <br></br>
                     - Nội dung thi: Thí sinh quay video 1 tác phẩm và gửi BTC (1 thí sinh có thể đăng ký nhiều lượt, 1 lượt đăng ký / 1 tác phẩm). Thí sinh ở các bảng VIOLIN - VOCAL - E.GUITAR được sử dụng beat piano hỗ trợ:
                     <br></br>
-                        +  Định dạng video: độ phân giải 720p,định dạng mp4, link youtube.
+                        +  Định dạng video: độ phân giải 720p, định dạng mp4, link youtube.
                     <br></br>
-                        +  Đặt tên video clip theo cấu trúc: hotenthisinh-ngaythangnamsinh-nhaccuduthi-tenbaiduthi 
+                        +  Đặt tên video clip theo cấu trúc: <b>hotenthisinh-ngaythangnamsinh-nhaccuduthi-tenbaiduthi </b>
                     <br></br>
                         (Ví dụ: nguyenvana-01012000-Piano-Conan).
                     <br></br>
                         +  Đính kèm thông tin đầy đủ về cá nhân và tác phẩm (họ tên, năm sinh, địa chỉ, số điện thoại, địa chỉ email, tên tác phẩm, tác giả và số phút từng bài) khi gửi video clip dự thi.
                     <br></br>
-                        +  Video clip của thí sinh dự thi phải nhìn rõ toàn thân; có chất lượng hình ảnh và âm thanh tốt; được quay liên tục từ đầu đến kết thúc phần biểu diễn, không qua cắt ghép, chỉnh sửa.
+                        +  Video clip của thí sinh dự thi phải nhìn rõ toàn thân; có chất lượng hình ảnh và âm thanh tốt; được quay liên tục từ đầu đến kết thúc phần biểu diễn <b>(không qua cắt ghép, chỉnh sửa)</b>. 
                     <br></br>
                     [CHO 5 TẤM HÌNH MẪU CỦA 5 BẢNG]
                     <br></br>
                         +  Số lượng thí sinh xuất sắc được chọn vào Vòng Bán kết tùy thuộc vào quyết định cuối cùng của BGK chuyên môn.
                     <br></br>
-                    - Công bố kết quả: Công khai trên website, fanpage, Email của thí sinh ngày 20/11/2024.
+                    - Công bố kết quả: Công khai trên website, fanpage, Email của thí sinh ngày <b>20/11/2024</b>.
                 </p>
 
                 <p className={cx('section__content')}>2. Vòng Bán kết</p>
@@ -58,7 +58,7 @@ function Rules() {
                     <br></br>
                     - 01 thí sinh ấn tượng nhất của tất cả 5 bảng có lượt yêu thích nhiều nhất do cộng đồng mạng bình chọn sẽ được 1 tấm vé vàng đi thẳng vào Vòng Chung kết cuộc thi (thí sinh giành được tấm vé vàng sẽ nằm ngoài số lượng thí sinh được BGK và cộng đồng mạng chọn vào chung kết). Trường hợp thí sinh có số lượt yêu thích cao nhất do Cộng đồng mạng bình chọn mà cũng được BGK chọn vào Vòng Chung kết, thì thí sinh có điểm số cao liền kề sẽ được chọn vào Vòng Chung kết.
                     <br></br>
-                    - Công bố kết quả: Công khai trên website, fanpage, Email của thí sinh ngày 14/12/2024.
+                    - Công bố kết quả: Công khai trên website, fanpage, Email của thí sinh ngày <b>14/12/2024</b>.
                 </p>
 
                 <p className={cx('section__content')}>3. Vòng Chung kết</p>
@@ -104,23 +104,27 @@ function Rules() {
                     <br></br>
                     + <b>Fanpage:</b> <a href='https://www.facebook.com/profile.php?id=61565795704081' target='_blank' rel="noopener noreferrer">Truy cập</a>
                     <br></br>
-                    Share công khai trên trang cá nhân kèm hashtag đúng cấu trúc: #mãsốthísinh, #AnimeMusicTalent, #Crystalwave =1 điểm.
+                    Share công khai trên trang cá nhân kèm hashtag đúng cấu trúc: 
+                    <br></br>
+                    <i>#mãsốthísinh, #AnimeMusicTalent, #Crystalwave</i> được <u>1 điểm</u>.
                     <br></br>
                     + <b>Instagram:</b> <a href='https://www.instagram.com/animemusictalent/'>Truy cập</a>
                     <br></br>
-                    Share công khai trên trang cá nhân kèm hashtag đúng cấu trúc: #mãsốthísinh, #AnimeMusicTalent, #Crystalwave =1 điểm.
+                    Share công khai trên trang cá nhân kèm hashtag đúng cấu trúc: 
+                    <br></br>
+                    <i>#mãsốthísinh, #AnimeMusicTalent, #Crystalwave</i> được <u>1 điểm</u>.
                     <br></br>
                     + <b>Youtube:</b> <a href='https://www.youtube.com/channel/UCu78VS374DVACTad_1A1VfA/community?pvf=CAI%253D' target='_blank' rel="noopener noreferrer">Truy cập</a>
                     <br></br>
-                    Bình luận công khai dưới clip đăng tải trên kênh Youtube chính thức của cuộc thi, mỗi tài khoản chỉ tính 1 lượt bình luận = 1 điểm.
+                    Bình luận công khai dưới clip đăng tải trên kênh Youtube chính thức của cuộc thi, mỗi tài khoản chỉ tính 1 lượt bình luận được <u>1 điểm</u>.
                     <br></br>
                     + <b>Tiktok:</b> <a href='https://www.tiktok.com/@animemusictalent' target='_blank' rel="noopener noreferrer">Truy cập</a>
                     <br></br>
-                    Yêu thích và bình luận vào clip đăng tải trên kênh tiktok chính thức của cuộc thi, mỗi tài khoản chỉ tính 1 lượt yêu thích và bình luận = 3 điểm
+                    Yêu thích và bình luận vào clip đăng tải trên kênh tiktok chính thức của cuộc thi, mỗi tài khoản chỉ tính 1 lượt yêu thích và bình luận được <u>3 điểm</u>
                     <br></br>
                     + Số điểm là tổng lượt Like, share và bình luận công khai bằng các tài khoản thực (không chấp nhận tài khoản ảo).
                     <br></br>
-                    + Số điểm trên các nền tảng xã hội sẽ chiếm 30% và tổng số điểm do các BGK chấm sẽ chiếm 70%.
+                    + Số điểm trên các nền tảng xã hội sẽ chiếm <b>30%</b> và tổng số điểm do các BGK chấm sẽ chiếm <b>70%</b>.
                     <br></br>
                     – Ở mỗi Bảng của mỗi Nhóm, thí sinh có tổng số điểm cao nhất được vào vòng Chung kết cuộc thi.
                 </p>

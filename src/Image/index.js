@@ -7,6 +7,8 @@ const Images = {
     instagram: require('./Instagram.png'),
     zalo: require('./Zalo.png'),
     youtube: require('./Youtube.png'),
+    unknown: require('./Unknow.jpg'),
+    vietinbank: require('./VietinBank.jpg'),
     test: require('./pngegg.png')
 }
 
