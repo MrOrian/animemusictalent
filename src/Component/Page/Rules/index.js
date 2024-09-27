@@ -102,23 +102,23 @@ function Rules() {
                     <br></br>
                     – Kênh bình chọn:
                     <br></br>
-                    + <b>Fanpage:</b> <a href='https://www.facebook.com/profile.php?id=61565795704081' target='_blank' rel="noopener noreferrer">Truy cập</a>
+                    + <b>Fanpage:</b> <a href='https://www.facebook.com/profile.php?id=61565795704081' target='_blank' rel="noopener noreferrer">Ấn vào đây để truy cập</a>
                     <br></br>
                     Share công khai trên trang cá nhân kèm hashtag đúng cấu trúc: 
                     <br></br>
                     <i>#mãsốthísinh, #AnimeMusicTalent, #Crystalwave</i> được <u>1 điểm</u>.
                     <br></br>
-                    + <b>Instagram:</b> <a href='https://www.instagram.com/animemusictalent/'>Truy cập</a>
+                    + <b>Instagram:</b> <a href='https://www.instagram.com/animemusictalent/'>Ấn vào đây để truy cập</a>
                     <br></br>
                     Share công khai trên trang cá nhân kèm hashtag đúng cấu trúc: 
                     <br></br>
                     <i>#mãsốthísinh, #AnimeMusicTalent, #Crystalwave</i> được <u>1 điểm</u>.
                     <br></br>
-                    + <b>Youtube:</b> <a href='https://www.youtube.com/channel/UCu78VS374DVACTad_1A1VfA/community?pvf=CAI%253D' target='_blank' rel="noopener noreferrer">Truy cập</a>
+                    + <b>Youtube:</b> <a href='https://www.youtube.com/channel/UCu78VS374DVACTad_1A1VfA/community?pvf=CAI%253D' target='_blank' rel="noopener noreferrer">Ấn vào đây để truy cập</a>
                     <br></br>
                     Bình luận công khai dưới clip đăng tải trên kênh Youtube chính thức của cuộc thi, mỗi tài khoản chỉ tính 1 lượt bình luận được <u>1 điểm</u>.
                     <br></br>
-                    + <b>Tiktok:</b> <a href='https://www.tiktok.com/@animemusictalent' target='_blank' rel="noopener noreferrer">Truy cập</a>
+                    + <b>Tiktok:</b> <a href='https://www.tiktok.com/@animemusictalent' target='_blank' rel="noopener noreferrer">Ấn vào đây để truy cập</a>
                     <br></br>
                     Yêu thích và bình luận vào clip đăng tải trên kênh tiktok chính thức của cuộc thi, mỗi tài khoản chỉ tính 1 lượt yêu thích và bình luận được <u>3 điểm</u>
                     <br></br>

@@ -18,25 +18,37 @@
     height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     padding: 10px;
     img{
        height: 100%;
        width: 40%;
        border-radius: 50%; 
+
+       @media (max-width: 768px) {
+        height: 70%;
+        width: 80%;
+       }
     }
+
+    
 }
 
 .examiner__content{
-    width: 60%;
+    width: 70%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     p{
         font-size: 30px;
         font-weight: 700;
+        
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
     }
 }
 
