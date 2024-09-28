@@ -2,5 +2,51 @@
     margin: 0 auto;
     height: 100%;
     width: 80%;
-    background-color: rgba(109, 174, 4, 0.8);
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.title{
+    margin: 0;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 700;
+
+    @media (max-width:768px) {
+        font-size: 25px;
+    }
+}
+
+.table__timeline{
+    font-size: 16px;
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid #0a1688;
+    transition: 0.12s ease-in-out;
+
+    td{
+        border: 2px solid gray;
+        line-height: 2;
+
+        &:nth-child(1){
+            width: 25%;
+            text-align: center;
+        }
+
+        &:nth-child(2){
+            padding: 5px 10px;
+            box-sizing: border-box;
+        }
+    }
+}
+
+.highlight--red{
+    color: rgb(194, 1, 1);
+    font-weight: 600;
+}
+
+.highlight{
+    color: #0a1688;
+    font-weight: 700;
 }

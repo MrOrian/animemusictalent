@@ -23,7 +23,7 @@ function Footer() {
                             <p className={cx('icon__info')}>
                                 <ion-icon name="call-outline"></ion-icon>
                             </p>
-                            <p className={cx('info')}>0899339332</p>
+                            <p className={cx('info')}>0899.339.332</p>
                         </div>
                     </div>
                 </div>

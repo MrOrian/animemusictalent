@@ -5,7 +5,6 @@
     justify-content: center;
     box-sizing: border-box;
     overflow: hidden;
-    padding: 5px;
     
 }
 
@@ -15,12 +14,14 @@
     background-color: rgb(255, 255, 255, 0.85);
     overflow: hidden;
     display: flex;
+    justify-content: center;
     align-items: center;
     box-sizing: border-box;
     img{
-        
+        display: flex;
+
         height: 100%;
-        width: 100%;
+        width: 80%;
     }
 
     @media (max-width:768px) {
@@ -61,4 +62,45 @@
 
 .highlight{
     font-weight: 700;
+}
+
+.wrap{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0a1688;
+    transition: 0.12s ease-in;
+
+    @media (max-width: 1380px) {
+        font-size: 18px;
+        white-space: nowrap; 
+    }
+
+    @media (max-width: 1280px) {
+        font-size: 16px;
+        white-space: nowrap; 
+    }
+
+    @media (max-width: 1024px) {
+        font-size: 13.5px;
+        white-space: nowrap; 
+    }
+
+    @media (max-width: 900px) {
+        font-size: 12.5px;
+        white-space: nowrap; 
+    }
+
+    @media (max-width: 768px) {
+        font-size: 16px;
+        white-space: nowrap; 
+    }
+
+    @media (max-width:490px) {
+        font-size: 14.5px;
+    }
+
+    @media (max-width:390px) {
+        font-size: 13.5px;
+    }
+
 }

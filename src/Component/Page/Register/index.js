@@ -33,16 +33,16 @@ function Register() {
                         
                         <tbody>
                             <tr>
-                                <td>- Tên tài khoản: </td>
-                                <td><b>CÔNG TY TNHH CRYSTAL WAVE ENTERTAINMENT</b></td>
+                                <td>Tên tài khoản: </td>
+                                <td><b>CÔNG TY TNHH <br></br>CRYSTAL WAVE ENTERTAINMENT</b></td>
                             </tr>
                             <tr>
-                                <td>- Số tài khoản:</td>
+                                <td>Số tài khoản:</td>
                                 <td><b>119002950017</b></td>
                             </tr>
                             <tr>
-                                <td>- Ngân hàng: </td>
-                                <td><b>VIETINBANK chi nhánh 2</b></td>
+                                <td>Ngân hàng: </td>
+                                <td><b>VIETINBANK <br></br>Chi nhánh 2</b></td>
                             </tr>
                         </tbody>
                     </table>

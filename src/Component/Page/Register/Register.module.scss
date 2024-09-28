@@ -33,11 +33,17 @@ $vietin: '../../../Image/VietinBank.jpg';
     height: 100%;
     width: 50%;
     box-sizing: border-box;
-    padding: 0 30px;
+    padding: 0 35px;
+    overflow: hidden;
 
-    @media (max-width:1000px) {
+    @media (max-width:1024px) {
         width: 100%;
         display: block;
+        padding: 5%;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
     }
 }
 
@@ -45,9 +51,6 @@ $vietin: '../../../Image/VietinBank.jpg';
     font-size: 20px;
     font-weight: 600;
     text-align: justify;
-    a{
-        margin: 5%;
-    }
 
     @media (max-width:1000px) {
         padding: 10%
@@ -57,16 +60,25 @@ $vietin: '../../../Image/VietinBank.jpg';
         margin-left: 0%;
     }
 
+    a{
+        &:visited, &:hover, &:focus, &:active {
+            color: blue; /* Giữ nguyên màu chữ trong các trạng thái */
+        }
+    }
+
 }
 
 .table__info{
+    width: 100%;
     border-collapse: collapse;
     border: 3px solid #1a1668;
+    box-sizing: border-box;
 
     td, th{
         padding: 12px 15px;
         text-align: left;
         border: 2px solid rgba(0, 0, 0, 0.1);
+        // white-space: nowrap;
     }
 
     th{
@@ -74,13 +86,29 @@ $vietin: '../../../Image/VietinBank.jpg';
         font-size: 20px;
     }
 
-    
-    @media (max-width:1000px) {
+    @media (max-width: 1080px) {
         margin-left: 10%;
     }
 
-    @media (max-width:900px) {
-        margin-left: 0%;
+    @media (max-width: 1080px) {
+        width: 80%;
+    }
+
+    @media (max-width: 900px) {
+        margin-left: 60px;
+    }
+
+
+    @media (max-width:768px) {
+        font-size: 12px;
+        margin-left: 10%;
+        tbody{
+            tr{
+                td:nth-last-child(1){
+                   white-space: inherit; 
+                }
+            }
+        }
     }
 }
 
@@ -91,7 +119,7 @@ $vietin: '../../../Image/VietinBank.jpg';
     padding: 10px;
     box-sizing: border-box;
 
-    @media (max-width:1000px) {
+    @media (max-width:1024px) {
         width: 100%;
     }
     min-height: 25vh;

@@ -54,7 +54,7 @@ function Header({setPageTitle}) {
                                 <Link to='/object' className={cx('menu__link')} onClick={() => setPageTitle('object')}>Đối tượng</Link>
                                 <Link to='/prize' className={cx('menu__link')} onClick={() => setPageTitle('prize')}>Giải thưởng</Link>
                                 <Link to='/timeline' className={cx('menu__link')} onClick={() => setPageTitle('timeline')}>Timeline tổng</Link>
-                                <Link to='/platforms' className={cx('menu__link')} onClick={() => setPageTitle('platforms')}>Các nền tảng</Link>
+                                {/* <Link to='/platforms' className={cx('menu__link')} onClick={() => setPageTitle('platforms')}>Các nền tảng</Link> */}
                             </div>
                     </div>
 
@@ -110,7 +110,7 @@ function Header({setPageTitle}) {
                                         <Link to='/object' className={cx('menu__link')} onClick={() => setPageTitle('object')}>Đối tượng</Link>
                                         <Link to='/prize' className={cx('menu__link')} onClick={() => setPageTitle('prize')}>Giải thưởng</Link>
                                         <Link to='/timeline' className={cx('menu__link')} onClick={() => setPageTitle('timeline')}>Timeline tổng</Link>
-                                        <Link to='/platforms' className={cx('menu__link')} onClick={() => setPageTitle('platforms')}>Các nền tảng</Link>
+                                        {/* <Link to='/platforms' className={cx('menu__link')} onClick={() => setPageTitle('platforms')}>Các nền tảng</Link> */}
                                     </div>
                                 )}
                                     

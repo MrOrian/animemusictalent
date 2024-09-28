@@ -2,5 +2,83 @@
     margin: 0 auto;
     height: 100%;
     width: 80%;
-    background-color: rgba(191, 191, 191, 0.8);
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.title{
+    margin: 0;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 700;
+
+    @media (max-width:768px) {
+        font-size: 25px;
+    }
+}
+
+.content{
+    box-sizing: border-box;
+    padding: 0 30px ;
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+    transition: 0.15s ease-in;
+    @media (max-width:768px) {
+        font-size: 15px;
+    }
+
+    
+    @media (max-width:390px) {
+        font-size: 12px;
+    }
+}
+
+link:visited, link:hover, link:focus, link:active {
+    color: blue; /* Giữ nguyên màu chữ trong các trạng thái */
+}
+
+.wrap{
+    font-size: 20px;
+    @media (max-width: 1280px) {
+        font-size: 18px;
+        white-space: nowrap; 
+    }
+
+    @media (max-width: 1024px) {
+        font-size: 16.5px;
+        white-space: nowrap; 
+    }
+
+    @media (max-width: 768px) {
+        font-size: 13px;
+        white-space: nowrap; 
+    }
+
+    @media (max-width:490px) {
+        font-size: 12.5px;
+    }
+
+    @media (max-width:390px) {
+        font-size: 9.5px;
+    }
+
+}
+
+.link{
+    font-weight: 600;   
+}
+
+.highlight{
+
+    color: #0a1688;
+    font-weight: 700;
+}
+
+
+.highlight--yellow{
+        display: inline-block;
+    text-align: left !important;
+    color: #b25504;
+    font-weight: 700;
 }
