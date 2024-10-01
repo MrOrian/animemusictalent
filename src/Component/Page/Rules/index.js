@@ -118,7 +118,7 @@ function Rules() {
                     <br></br>
                     Bình luận công khai dưới clip đăng tải trên kênh Youtube chính thức của cuộc thi, mỗi tài khoản chỉ tính 1 lượt bình luận được <u>1 điểm</u>.
                     <br></br>
-                    + <b>Tiktok:</b> <a href='https://www.tiktok.com/@animemusictalent' target='_blank' rel="noopener noreferrer">Ấn để truy cập</a>
+                    + <b>Tiktok:</b> <a href='https://www.tiktok.com/@animemusictalent2024' target='_blank' rel="noopener noreferrer">Ấn để truy cập</a>
                     <br></br>
                     Yêu thích và bình luận vào clip đăng tải trên kênh tiktok chính thức của cuộc thi, mỗi tài khoản chỉ tính 1 lượt yêu thích và bình luận được <u>3 điểm</u>
                     <br></br>
