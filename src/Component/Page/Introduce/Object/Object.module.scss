@@ -3,6 +3,11 @@
     height: 100%;
     width: 80%;
     background-color: rgba(255, 255, 255, 0.85);
+    @media (max-width: 768px) 
+    {
+        width: 100%;  
+        padding: 0 15px;  
+    }
 }
 
 .title{
@@ -11,7 +16,7 @@
     padding-top: 15px;
     font-size: 30px;
     font-weight: 700;
-
+    color: #010d72;
     @media (max-width:768px) {
         font-size: 25px;
     }

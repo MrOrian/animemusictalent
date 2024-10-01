@@ -59,6 +59,10 @@ function Register() {
                             </p>
                             <p className={cx('banking__branch')}>Chi nhánh 2</p>
                         </div>
+                        <div className={cx('qrcode')}>
+                            <img src={Image.qr}></img>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

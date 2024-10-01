@@ -9,7 +9,11 @@ const Images = {
     youtube: require('./Youtube.png'),
     unknown: require('./Unknow.jpg'),
     vietinbank: require('./VietinBank.jpg'),
-    test: require('./pngegg.png')
+    qr: require('./QR_Bank.jpg'),
+    camera: require('./camera.jpg'),
+    piano: require('./piano.jpg'),
+    room: require('./room.jpg'),
+    sheet: require('./sheet.jpg')
 }
 
 export default Images

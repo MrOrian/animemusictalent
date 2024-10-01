@@ -1,14 +1,35 @@
 import classNames from 'classnames/bind'
 import styles from './Home.module.scss'
 import Images from '../../../Image'
+import VideoTrailer from '../../../Video/Controls_Wide_BB.mp4'
+import { useState,useRef } from 'react'
 
 const cx = classNames.bind(styles)
 
 function Home() {
+    const videoRef = useRef(null);
+    const [isReversed, setIsReversed] = useState(false);
+
+    const handleEnded = () => {
+        setIsReversed(!isReversed); // Đảo ngược trạng thái
+        videoRef.current.currentTime = 0; // Đặt thời gian video về 0
+        videoRef.current.play(); // Phát video
+    };
+
     return(
         <div className={cx('home')}>
             <div className={cx('home__left')}>
-                <img src={Images.test} alt='test'></img>
+            <video 
+                ref={videoRef} 
+                src={isReversed ? VideoTrailer : VideoTrailer} // Cùng một video cho lặp lại
+                onEnded={handleEnded}
+                autoPlay 
+                controls ={false}
+                width="600" 
+                loop 
+                muted
+                // thêm "loop" để video sẽ tự động lặp
+            />
             </div>
 
             <div className={cx('home__right')}>
@@ -32,12 +53,12 @@ function Home() {
                     <br></br><br></br>
 
                     <span className={cx('highlight')}>
-                    ☎️ Hotline: <span></span> 0899.339.332 (Giờ làm việc 09:30 - 19:30)
+                    Hotline: <span></span> 0899.339.332 (Giờ làm việc 09:30 - 19:30)
                     </span>
                     <br></br>
-                    
+                    <br></br>
                     <span className={cx('highlight')}>
-                        🎷 Email: animemusictalent@gmail.com
+                    Email: animemusictalent@gmail.com
                     </span>
                     
                 </p>

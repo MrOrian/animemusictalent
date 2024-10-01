@@ -7,6 +7,7 @@ const cx = classNames.bind(styles)
 function Examiner() {
     return(
         <div className={cx('container')}>
+            <p className={cx('title')}>BAN GIÁM KHẢO</p>
             <div className={cx('examiner__info')}>
                 <div className={cx('examiner__image')}>
                     <img src={Image.unknown} alt='unknow-examiner'></img>

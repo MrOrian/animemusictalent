@@ -5,6 +5,11 @@
     justify-content: center;
     box-sizing: border-box;
     overflow: hidden;
+
+    @media (max-width:1024px) {
+        display: block;
+        
+    }
     
 }
 
@@ -15,19 +20,29 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     box-sizing: border-box;
-    img{
+    
+    video{
+        margin-top: 46px;
         display: flex;
-
-        height: 100%;
-        width: 80%;
+        height: auto;
+        width: 95%;
+        pointer-events: none;
+        border: 2px solid black;
+        padding: 1px;
+        box-sizing: border-box;
     }
 
-    @media (max-width:768px) {
-        display: none;
-        
+    @media (max-width:1024px) {
+        width: 100%;
+        height: auto;
+
+        video{
+            margin-top: 25px;
+        }
     }
+
 }
 
 .home__right{
@@ -40,12 +55,15 @@
     p{
         width: 80%;
         text-align: justify;
+        // color: white; /* Màu chữ trắng */
+        padding: 10px;
         transition: 0.15s ease-in;
         .title{
             width: 100%;
             font-size: 30px;
             text-align: center;
             font-weight: 700;
+            color: #010d72;
         }
     }
 
@@ -53,7 +71,7 @@
         padding-bottom: 20px;
     }
 
-    @media (max-width:768px) {
+    @media (max-width:1024px) {
         width: 100%;
         padding: 0 20px;
     }

@@ -1,16 +1,39 @@
 .container{
     margin: 0 auto;
-    height: 100%;
+    height: auto;
     width: 80%;
     background-color: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    @media (max-width: 768px) 
+    {
+        width: 100%;  
+        padding: 0 15px;  
+    }
+
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: 10%;
+    padding-top: 15px;
+    margin: 0 0 10px 0;
+    color: #010d72;
 }
 
 .examiner__info{
     height: 150px;
     width: 100%;
     display: flex;
-    border-bottom: 2px solid #0a1668;
-    border-top: 2px solid #0a1668;
+    border-bottom: 3px solid #0a1668;
+
+    &:nth-child(1){
+        border-top: none;
+    }
+    &:nth-last-child(1){
+        border-bottom: none;
+    }
 }
 
 .examiner__image{
