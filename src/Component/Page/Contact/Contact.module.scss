@@ -87,7 +87,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    color: rgb(0, 0, 0);
     &:visited, &:hover, &:focus, &:active {
         color: rgb(0, 0, 0); /* Giữ nguyên màu chữ trong các trạng thái */
     }
