@@ -52,7 +52,7 @@ function Footer() {
                             </div>
                         </a>
                         
-                        <a href='https://www.tiktok.com/@animemusictalent' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://www.tiktok.com/@animemusictalent2024' target='_blank' rel='noopener noreferrer'>
                             <div className={cx('social')}>
                                 <img className={cx('icon')} src={Images.tiktok} alt='Tiktok'></img>
                             </div>

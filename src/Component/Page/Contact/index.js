@@ -37,7 +37,7 @@ function Contact() {
                             <p>Zalo</p>
                         </div>
                     </a>
-                    <a className={cx('social__link')}  href='https://www.tiktok.com/@animemusictalent' target='_blank' rel="noopener noreferrer">
+                    <a className={cx('social__link')}  href='https://www.tiktok.com/@animemusictalent2024' target='_blank' rel="noopener noreferrer">
                         <div className={cx('tiktok')}>
                             <img src={Image.tiktok} alt='tiktok'></img>
                             <p>Tiktok</p>
