@@ -2,7 +2,7 @@
   "name": "new-animemusictalent",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mrorian.github.io/animemusictalent",
+  "homepage": "animemusictalent.com",
   "dependencies": {
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
