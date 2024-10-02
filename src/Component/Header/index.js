@@ -124,7 +124,7 @@ function Header({setPageTitle}) {
 
                                 <Link to='/register' className={cx('menu__mobile--link')} onClick={() => setPageTitle('register')}>
                                     <div className={cx('button__mobile')} tabIndex="0">
-                                        <p className={cx('button__mobile--name')}>Đăng kí</p>
+                                        <p className={cx('button__mobile--name')}>Đăng ký</p>
                                     </div>
                                 </Link>
 
