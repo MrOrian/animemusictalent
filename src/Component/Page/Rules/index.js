@@ -32,7 +32,7 @@ function Rules() {
                     <br></br>
                         +  Định dạng video: độ phân giải 720p, định dạng mp4, link youtube.
                     <br></br>
-                        +  Đặt tên video clip theo cấu trúc: <b>hotenthisinh-ngaythangnamsinh-nhaccuduthi-tenbaiduthi </b>
+                        +  Đặt tên video clip theo cấu trúc: <b>hoten-ngaysinh-nhaccuduthi-tenbaiduthi </b>
                     <br></br>
                         (Ví dụ: nguyenvana-01012000-Piano-Conan).
                     <br></br>
@@ -44,7 +44,7 @@ function Rules() {
                     <br></br>
                         +  Số lượng thí sinh xuất sắc được chọn vào Vòng Bán kết tùy thuộc vào quyết định cuối cùng của BGK chuyên môn.
                     <br></br>
-                    - Công bố kết quả: Công khai trên website, fanpage, Email của thí sinh ngày <b>20/11/2024</b>.
+                    - Công bố kết quả: Công khai trên Website, Fanpage, Email của thí sinh ngày <b>20/11/2024</b>.
                 </p>
 
                 <p className={cx('section__content')}>2. Vòng Bán kết</p>
@@ -58,7 +58,7 @@ function Rules() {
                     <br></br>
                     - 01 thí sinh ấn tượng nhất của tất cả 5 bảng có lượt yêu thích nhiều nhất do cộng đồng mạng bình chọn sẽ được 1 tấm vé vàng đi thẳng vào Vòng Chung kết cuộc thi (thí sinh giành được tấm vé vàng sẽ nằm ngoài số lượng thí sinh được BGK và cộng đồng mạng chọn vào chung kết). Trường hợp thí sinh có số lượt yêu thích cao nhất do Cộng đồng mạng bình chọn mà cũng được BGK chọn vào Vòng Chung kết, thì thí sinh có điểm số cao liền kề sẽ được chọn vào Vòng Chung kết.
                     <br></br>
-                    - Công bố kết quả: Công khai trên website, fanpage, Email của thí sinh ngày <b>14/12/2024</b>.
+                    - Công bố kết quả: Công khai trên Website, Fanpage, Email của thí sinh ngày <b>14/12/2024</b>.
                 </p>
 
                 <p className={cx('section__content')}>3. Vòng Chung kết</p>
