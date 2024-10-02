@@ -28,6 +28,8 @@ function Home() {
                 width="600" 
                 loop 
                 muted
+                preload="auto"
+                playsInline
                 // thêm "loop" để video sẽ tự động lặp
             />
             </div>
