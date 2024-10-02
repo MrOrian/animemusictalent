@@ -15,7 +15,7 @@ function Register() {
                         1. Thí sinh đăng ký thông tin vào Form đăng ký dưới đây:
                         <br></br>
                         <br></br>
-                        <a href='https://forms.gle/rVLyVpmWmJJ9ffgs9' target='_blank' rel="noopener noreferrer">Ấn vào đây để truy cập Form đăng kí</a>
+                        <a href='https://forms.gle/rVLyVpmWmJJ9ffgs9' target='_blank' rel="noopener noreferrer">Ấn vào đây để truy cập Form đăng ký</a>
                         <br></br>
                         <br></br>
                         2. BTC sẽ liên hệ xác nhận qua Gmail và Zalo.
