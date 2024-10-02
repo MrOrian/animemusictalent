@@ -7,7 +7,7 @@ const cx = classNames.bind(styles)
 function Register() {
     return(
         <div className={cx('container')}>
-            <p className={cx('title')}>ĐĂNG KÍ DỰ THI</p>
+            <p className={cx('title')}>ĐĂNG KÝ DỰ THI</p>
 
             <div className={cx('register__container')}>
                 <div className={cx('register__info')}>
@@ -21,7 +21,7 @@ function Register() {
                         2. BTC sẽ liên hệ xác nhận qua Gmail và Zalo.
                         <br></br>
                         <br></br>
-                        3. Chuyển lệ phí đăng ký qua Số tài khoản BTC.
+                        3. Chuyển lệ phí đăng ký qua số tài khoản hoặc quét mã QR của BTC.
                     </p>
 
                     <table className={cx('table__info')}>
