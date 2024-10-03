@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=/" />
-    <title>Redirecting...</title>
-    <style>
-      p{
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        font-size: 30px;
-      }
-    </style>
-  </head>
-  
-  <body>
-    <script>
-      // Giữ nguyên URL và chuyển hướng về index.html
-      window.location.href = window.location.pathname === "/404.html" ? "/" : window.location.pathname;
+    <title>Page Not Found</title>
+    <script type="text/javascript">
+        // Danh sách các đường dẫn hợp lệ
+        const validPaths = ['/', '/introduce', '/rules', '/register', '/contact', '/examiner', '/service', '/timeline', '/prize', '/contest', '/object'];
+        
+        // Lấy đường dẫn hiện tại
+        const currentPath = window.location.pathname;
+
+        // Nếu đường dẫn hợp lệ, chuyển đến route tương ứng
+        if (validPaths.includes(currentPath)) {
+            window.location.replace(currentPath); // Chuyển đến trang hiện tại
+        } else {
+            window.location.replace('/'); // Nếu không hợp lệ, chuyển về trang chính
+        }
     </script>
-    
-    <p>Redirecting to <a href="/">home</a>...</p>
-  </body>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
 </html>

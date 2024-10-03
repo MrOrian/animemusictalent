@@ -22,7 +22,7 @@ function App() {
   }, [pageTitle]);
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className={cx('app')}>
         <Header setPageTitle={setPageTitle} />
         <div className={cx('content')}>
