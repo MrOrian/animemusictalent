@@ -1,74 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <title>Go To Home</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            font-family: "Saira", sans-serif;
-            background-color: #ffffff;
-            color: #333;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 3em;
-            margin: 0;
-            color: #e74c3c;
-        }
-
-        p {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-
-        a {
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #015d9a;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        a:hover {
-            background-color: #2980b9;
-        }
-
-        img {
-            height: 280px;
-            width: 300px;
-            margin: 20px 0;
-        }
-    </style>
-    <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function () {
-            const validPaths = ['/', '/introduce', '/rules', '/register', '/contact', '/examiner', '/service', '/timeline', '/prize', '/contest', '/object'];
-            const currentPath = window.location.pathname;
-
-            // Kiểm tra nếu đường dẫn không hợp lệ
-            if (!validPaths.includes(currentPath)) {
-                window.location.href = '/'; // Chuyển về trang chính nếu không hợp lệ
-            }
-        });
-    </script>
-</head>
-<body>
-    <h1>LỖI TRUY CẬP TỪ BÊN NGOÀI</h1>
-    <p>Oops! Trang bạn yêu cầu chưa thể truy cập trực tiếp, vui lòng truy cập từ Trang Chủ</p>
-    <img src="./fix.jpg" alt="404 Image" />
-    <p>Đi đến <a href="/">Trang Chủ</a> để truy cập nhé!</p>
-</body>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/" />
+  </head>
+  <body></body>
 </html>
