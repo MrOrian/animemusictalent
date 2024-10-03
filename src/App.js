@@ -45,8 +45,6 @@ function App() {
                 <Route path="/contest" element={<Pages pageTitle="contest" />} />
                 <Route path="/object" element={<Pages pageTitle="object" />} />
                 <Route path="*" element={<Pages pageTitle="introduce" />} />
-
-
               </Routes>
             </div>
           )}
