@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Page Not Found</title>
     <script type="text/javascript">
       // Giữ nguyên URL cho các route hợp lệ
-      const validPaths = ['/', '/introduce', '/rules', '/register']; // Thêm các đường dẫn hợp lệ khác nếu cần
+      const validPaths = ['/', '/introduce', '/rules', '/register', '/contact', '/examiner', '/service', '/timeline', '/prize', '/contest', '/object'];
+
       if (!validPaths.includes(window.location.pathname)) {
-        window.location.replace('/'); // Chuyển về trang chính nếu không hợp lệ
+        // Chuyển đến index.html để React Router xử lý
+        window.location.replace('/index.html');
+      } else {
+        // Nếu là route hợp lệ, tải lại index.html
+        window.location.replace('/index.html' + window.location.pathname);
       }
     </script>
   </head>
