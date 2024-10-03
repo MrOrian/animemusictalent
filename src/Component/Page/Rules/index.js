@@ -80,7 +80,7 @@ function Rules() {
                 <p className={cx('detailed__content')}>
                     - 1 thí sinh có thể đăng ký nhiều lượt, 1 lượt đăng ký/1 tác phẩm, có thể đăng ký ở nhiều bảng khác nhau.
                     <br></br>
-                    - Tác phẩm dự thi phải được đàn thuộc lòng.
+                    - Ở vòng sơ loại, thí sinh được phép sử dụng sheet nhạc. Tuy nhiên, từ vòng bán kết trở đi, tất cả các bài thi đều yêu cầu thí sinh phải trình diễn thuộc lòng.
                     <br></br>
                     - Thí sinh bảng Vocal có thể chọn hát Tiếng Việt hoặc Tiếng Nhật hoặc Tiếng Anh.
                     <br></br>
@@ -88,7 +88,6 @@ function Rules() {
                     <br></br>
                     - Các tác phẩm thi giới hạn trong danh mục âm nhạc anime (có thể tự do phối mới)
                     <br></br>
-                    -  Bài thi ở các vòng của mỗi thí sinh không được trùng nhau.
                 </p>
 
                 <p className={cx('main__content')}>IV. Cách tính điểm của Cộng đồng mạng:</p>

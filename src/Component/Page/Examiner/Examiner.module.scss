@@ -1,6 +1,6 @@
 .container{
     margin: 0 auto;
-    height: auto;
+    min-height: 85vh;
     width: 80%;
     background-color: rgba(255, 255, 255, 0.85);
     box-sizing: border-box;
@@ -9,7 +9,6 @@
         width: 100%;  
         padding: 0 15px;  
     }
-
 }
 
 .title{
