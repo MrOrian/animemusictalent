@@ -3,7 +3,7 @@ import Header from './Component/Header';
 import classNames from 'classnames/bind';
 import styles from './App.module.scss';
 import { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Pages from './Component/Page';
 
 const cx = classNames.bind(styles);
