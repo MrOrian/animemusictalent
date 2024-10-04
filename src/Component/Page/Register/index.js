@@ -21,7 +21,9 @@ function Register() {
                         2. BTC sẽ liên hệ xác nhận qua Gmail và Zalo.
                         <br></br>
                         <br></br>
-                        3. Chuyển lệ phí đăng ký qua số tài khoản hoặc quét mã QR của BTC.
+                        3. Chuyển lệ phí đăng ký qua số tài khoản hoặc quét mã QR của BTC kèm nội dung chuyển khoản như sau:
+                        <br></br>
+                        <p>"Họ tên - Ngày sinh - AMT"</p>
                     </p>
 
                     <table className={cx('table__info')}>

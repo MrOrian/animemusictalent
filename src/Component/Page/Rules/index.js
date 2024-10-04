@@ -24,7 +24,7 @@ function Rules() {
                 <p className={cx('section__content')}>1. Vòng Sơ loại (Online)</p>
                 
                 <p className={cx('detailed__content')}>
-                    - Thời gian đăng ký: Từ ngày <b>01/10/2024</b> đến hết <b>15/11/2024</b> (Thí sinh có thể gửi video dự thi sau khi đăng ký qua Email hoặc Zalo BTC).
+                    - Thời gian đăng ký: Từ ngày <b>01/10/2024</b> đến hết <b>31/12/2024</b> (Thí sinh có thể gửi video dự thi sau khi đăng ký qua Email hoặc Zalo BTC).
                     <br></br>
                     - Lệ phí đăng ký: <b>750.000đ</b> / lượt đăng ký
                     <br></br>
@@ -40,11 +40,9 @@ function Rules() {
                     <br></br>
                         +  Video clip của thí sinh dự thi phải nhìn rõ toàn thân; có chất lượng hình ảnh và âm thanh tốt; được quay liên tục từ đầu đến kết thúc phần biểu diễn <b>(không qua cắt ghép, chỉnh sửa)</b>. 
                     <br></br>
-                    [CHO 5 TẤM HÌNH MẪU CỦA 5 BẢNG]
-                    <br></br>
                         +  Số lượng thí sinh xuất sắc được chọn vào Vòng Bán kết tùy thuộc vào quyết định cuối cùng của BGK chuyên môn.
                     <br></br>
-                    - Công bố kết quả: Công khai trên Website, Fanpage, Email của thí sinh ngày <b>20/11/2024</b>.
+                    - Công bố kết quả: Công khai trên Website, Fanpage, Email của thí sinh ngày <b>15/01/2025</b>.
                 </p>
 
                 <p className={cx('section__content')}>2. Vòng Bán kết</p>
@@ -58,7 +56,7 @@ function Rules() {
                     <br></br>
                     - 01 thí sinh ấn tượng nhất của tất cả 5 bảng có lượt yêu thích nhiều nhất do cộng đồng mạng bình chọn sẽ được 1 tấm vé vàng đi thẳng vào Vòng Chung kết cuộc thi (thí sinh giành được tấm vé vàng sẽ nằm ngoài số lượng thí sinh được BGK và cộng đồng mạng chọn vào chung kết). Trường hợp thí sinh có số lượt yêu thích cao nhất do Cộng đồng mạng bình chọn mà cũng được BGK chọn vào Vòng Chung kết, thì thí sinh có điểm số cao liền kề sẽ được chọn vào Vòng Chung kết.
                     <br></br>
-                    - Công bố kết quả: Công khai trên Website, Fanpage, Email của thí sinh ngày <b>14/12/2024</b>.
+                    - Công bố kết quả: Công khai trên Website, Fanpage, Email của thí sinh ngày <b>28/02/2025</b>.
                 </p>
 
                 <p className={cx('section__content')}>3. Vòng Chung kết</p>

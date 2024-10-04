@@ -17,19 +17,19 @@ function Timeline() {
             </thead>
             <tbody>
                 <tr>
-                    <td>01/10/2024 – 15/11/2024</td>
+                    <td>01/10/2024 – 31/12/2024</td>
                     <td>Thí sinh đăng ký qua Form:..., hoàn tất lệ phí đăng ký dự thi.
                         <br></br>
                         <br></br>
-                        Tải video và gửi link Google Drive hoặc Youtube (chế độ không công khai) qua Gmail hoặc Zalo của BTC. Hạn cuối đăng tải video clip tham gia vòng <span className={cx('highlight')}>Sơ loại</span>: <b>23:59 ngày 15/11/2024</b> theo giờ Việt Nam. 
+                        Tải video và gửi link Google Drive hoặc Youtube (chế độ không công khai) qua Gmail hoặc Zalo của BTC. Hạn cuối đăng tải video clip tham gia vòng <span className={cx('highlight')}>Sơ loại</span>: <b>23:59 ngày 31/12/2024</b> theo giờ Việt Nam. 
                         <br></br>
                         <br></br>
-                        Tất cả video clip dự thi gửi <b>sau ngày 15/11/2024</b> đều <span className={cx('highlight--red')}>không hợp lệ</span>.
+                        Tất cả video clip dự thi gửi <b>sau ngày 31/12/2024</b> đều <span className={cx('highlight--red')}>không hợp lệ</span>.
                     </td>
                 </tr>
 
                 <tr>
-                    <td>20/11/2024</td>
+                    <td>15/01/2025</td>
                     
                     <td>
                         BTC công bố danh sách thí sinh vào Vòng Bán kết (thi trực tiếp)
@@ -37,7 +37,7 @@ function Timeline() {
                 </tr>
 
                 <tr>
-                    <td>01/12/2024</td>
+                    <td>16/02/2025</td>
 
                     <td>
                         Vòng Bán kết (Thi trực tiếp)
@@ -45,21 +45,21 @@ function Timeline() {
                 </tr>
 
                 <tr>
-                    <td>03/12/2024 - 04/12/2024</td>
+                    <td>18/02/2025 - 25/02/2025</td>
                     <td>
                         Chính thức mở cổng bình chọn thí sinh xuất sắc được vào Chung kết
                     </td>
                 </tr>
 
                 <tr>
-                    <td>14/12/2024</td>
+                    <td>28/02/2025</td>
                     <td>
                         Công bố kết quả các thí sinh xuất sắc được chọn vào vòng Chung kết
                     </td>
                 </tr>
 
                 <tr>
-                    <td>29/12/2024</td>
+                    <td>30/03/2025</td>
                     <td>
                         Vòng chung kết (Thi trực tiếp)
                         <br></br>
