@@ -13,7 +13,8 @@ const Images = {
     camera: require('./camera.jpg'),
     piano: require('./piano.jpg'),
     room: require('./room.jpg'),
-    sheet: require('./sheet.jpg')
+    sheet: require('./sheet.jpg'),
+    wave: require('./wave.png')
 }
 
 export default Images

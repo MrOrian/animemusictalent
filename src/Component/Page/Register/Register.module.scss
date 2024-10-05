@@ -5,6 +5,9 @@ $vietin: '../../../Image/VietinBank.jpg';
     min-height: 85vh;
     width: 80%;
     background-color: rgba(255, 255, 255, 0.85);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 100px;
     @media (max-width: 768px) 
     {
         width: 100%;  

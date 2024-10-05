@@ -15,13 +15,19 @@ html, body {
 
 }
 
+header{
+    z-index: 2;
+}
+
 .content{
+    z-index: 1;
     min-height:85vh;
     width: 100%;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    
+    overflow: hidden;
+
 }
 
 .wrapper{

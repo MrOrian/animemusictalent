@@ -22,7 +22,7 @@ function Service() {
                         </div>
 
                         <div className={cx('service__button')}>
-                            <a href='https://zalo.me/0899339332' target='_blank' rel='noopener noreferrer'>Đăng ký ngay</a>
+                            <a href='https://zalo.me/0899339332' target='_blank' rel='noopener noreferrer'>Đăng ký</a>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ function Service() {
                         </div>
 
                         <div className={cx('service__button')}>
-                            <a href='https://zalo.me/0899339332' target='_blank' rel='noopener noreferrer'>Đăng ký ngay</a>
+                            <a href='https://zalo.me/0899339332' target='_blank' rel='noopener noreferrer'>Đăng ký</a>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ function Service() {
                         </div>
 
                         <div className={cx('service__button')}>
-                            <a href='https://zalo.me/0899339332' target='_blank' rel='noopener noreferrer'>Đăng ký ngay</a>
+                            <a href='https://zalo.me/0899339332' target='_blank' rel='noopener noreferrer'>Đăng ký</a>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ function Service() {
                         </div>
 
                         <div className={cx('service__button')}>
-                            <a href='https://zalo.me/0899339332' target='_blank' rel='noopener noreferrer'>Đăng ký ngay</a>
+                            <a href='https://zalo.me/0899339332' target='_blank' rel='noopener noreferrer'>Đăng ký</a>
                         </div>
                     </div>
                 </div>

@@ -6,6 +6,12 @@ const cx = classNames.bind(styles)
 function Footer() {
     return(
         <footer>
+            <div className={cx('waves')}>
+                <div className={cx('wave')} id={cx('wave1')}></div>
+                <div className={cx('wave')} id={cx('wave2')}></div>
+                <div className={cx('wave')} id={cx('wave3')}></div>
+                <div className={cx('wave')} id={cx('wave4')}></div>
+            </div>
             <div className={cx('footer__top')}>
                 <div className={cx('footer__section','footer__section--contact-info')}>
                     <div className={cx('info__top')}>
