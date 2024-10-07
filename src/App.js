@@ -5,7 +5,7 @@ import styles from './App.module.scss';
 import { useEffect, useState } from 'react';
 import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Pages from './Component/Page';
-
+import Images from './Image';
 const cx = classNames.bind(styles);
 
 function App() {
@@ -63,6 +63,11 @@ function App() {
   return (
     <Router>
       <div className={cx('app')}>
+        <div className={cx('zalo')}>
+          <a href='https://zalo.me/0899339332' target='_blank' rel='noopener noreferrer'>
+            <img src={Images.zalo}></img>
+          </a>
+        </div>
         <Header setPageTitle={setPageTitle} />
         <div className={cx('content')}>
           {loading ? (
