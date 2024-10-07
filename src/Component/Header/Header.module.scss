@@ -209,6 +209,7 @@ header{
 
 .menu__collapse{
     display: none;
+    transition: 0.15s ease-in;
     @media (max-width:950px) {
         display: block;     
     }
@@ -216,11 +217,9 @@ header{
 
     
 .menu__mobile{
- 
     height: auto;
     width: 400%;
     margin-top: 10px;
-    transition: 0.2s ease-in;
     position: absolute;
     top: 100%;
     right: 0;
@@ -229,6 +228,7 @@ header{
     border: 2px solid white;
     border-radius: 5px;
     overflow: hidden;
+    transition: opacity 0.3s ease, height 0.3s ease;
 }
 
 .menu__icon{

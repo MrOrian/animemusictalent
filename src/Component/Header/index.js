@@ -12,8 +12,7 @@ function Header({setPageTitle}) {
     const menuRef = useRef(null);
     const toggleMenu = () => {
         setMobileMenuVisible(prevState => !prevState);
-  
-      setMobileHomeVisible(false);
+        setMobileHomeVisible(false);
     };
 
     const preventClose = (e) => {

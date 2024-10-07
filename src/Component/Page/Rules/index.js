@@ -26,7 +26,7 @@ function Rules() {
                 <p className={cx('detailed__content')}>
                     - Thời gian đăng ký: Từ ngày <b>01/10/2024</b> đến hết <b>31/12/2024</b> (Thí sinh có thể gửi video dự thi sau khi đăng ký qua Email hoặc Zalo BTC).
                     <br></br>
-                    - Lệ phí đăng ký: <b>750.000đ</b> / lượt đăng ký
+                    - Lệ phí đăng ký: <b>750.000đ</b> / lượt đăng ký <h3> (Giảm 50% cho 20 thí sinh đầu tiên!!!)</h3>
                     <br></br>
                     - Nội dung thi: Thí sinh quay video 1 tác phẩm và gửi BTC (1 thí sinh có thể đăng ký nhiều lượt, 1 lượt đăng ký / 1 tác phẩm). Thí sinh ở các bảng <span className={cx('highlight')}>VIOLIN - VOCAL - E.GUITAR</span> được sử dụng beat piano hỗ trợ:
                     <br></br>
