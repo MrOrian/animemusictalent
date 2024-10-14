@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.44d5b28b.css",
+    "main.js": "/static/js/main.5342fd27.js",
+    "static/js/488.231ebbd7.chunk.js": "/static/js/488.231ebbd7.chunk.js",
+    "static/media/Controls_Wide_BB.mp4": "/static/media/Controls_Wide_BB.70ffb039affcf42929db.mp4",
+    "static/media/LOGO_Color.png": "/static/media/LOGO_Color.b214468f428deed48a56.png",
+    "static/media/Background.jpg": "/static/media/Background.cbb7be2e07d7080d3c8f.jpg",
+    "static/media/LOGO_White.png": "/static/media/LOGO_White.caf695ce6715dc5cf5c7.png",
+    "static/media/Facebook.png": "/static/media/Facebook.8f05ca00779f203e2bf8.png",
+    "static/media/Zalo.png": "/static/media/Zalo.a24c5ce1496c8169db4b.png",
+    "static/media/Instagram.png": "/static/media/Instagram.28944b9a16197e849f88.png",
+    "static/media/QR_Bank.jpg": "/static/media/QR_Bank.90438d228187afc829e9.jpg",
+    "static/media/Tiktok.png": "/static/media/Tiktok.8a9452a0a4c037d9de63.png",
+    "static/media/Unknow.jpg": "/static/media/Unknow.fc6d02c6cef870abf9ee.jpg",
+    "static/media/sheet.jpg": "/static/media/sheet.ef068b746907e0058177.jpg",
+    "static/media/piano.jpg": "/static/media/piano.c4ff077240f7389a0f29.jpg",
+    "static/media/VietinBank.jpg": "/static/media/VietinBank.dc7c17422855d2ed4bd0.jpg",
+    "static/media/camera.jpg": "/static/media/camera.aba0fbb0731a4ab8f411.jpg",
+    "static/media/room.jpg": "/static/media/room.3e40b00d2e18ffc5c7de.jpg",
+    "static/media/Youtube.png": "/static/media/Youtube.53e70a78a824adc8e296.png",
+    "index.html": "/index.html",
+    "main.44d5b28b.css.map": "/static/css/main.44d5b28b.css.map",
+    "main.5342fd27.js.map": "/static/js/main.5342fd27.js.map",
+    "488.231ebbd7.chunk.js.map": "/static/js/488.231ebbd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44d5b28b.css",
+    "static/js/main.5342fd27.js"
+  ]
+}
