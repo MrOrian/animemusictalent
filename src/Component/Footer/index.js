@@ -40,7 +40,7 @@ function Footer() {
                     </div>
 
                     <div className={cx('social__bottom')}>
-                        <a href='https://www.facebook.com/profile.php?id=61565795704081' target='_blank' rel="noopener noreferrer">
+                        <a href='https://www.facebook.com/animemusictalent' target='_blank' rel="noopener noreferrer">
                             <div className={cx('social')}>
                                 <img className={cx('icon')} src={Images.facebook} alt='Facebook'></img>
                             </div>

@@ -19,7 +19,7 @@ function Contact() {
                 </div>
                 <div className={cx('content__right')}>
                     <p><b>LIÊN HỆ QUA CÁC NỀN TẢNG:</b></p>
-                    <a className={cx('social__link')} href='https://www.facebook.com/profile.php?id=61565795704081' target='_blank' rel="noopener noreferrer">
+                    <a className={cx('social__link')} href='https://www.facebook.com/animemusictalent' target='_blank' rel="noopener noreferrer">
                         <div className={cx('facebook')}>
                             <img src={Image.facebook} alt='facebook'></img>
                             <p>Facebook</p>
